@@ -1,1 +1,1 @@
-# Radioactive-Krunker-Client
+# Radioactive-Krunker-Client is currently beta-only.
