@@ -47,4 +47,4 @@ All support/Bugs/Glitches are to be reported directly to me or in the [discord s
 
 ## Credits
 - This project is not possible without the [Electron framework](https://www.electronjs.org/)
-- The start splash screen background images belong to the respective owners. Kindly check [this file]() to know more and if any of them wants to be removed, please [dm me](https://discord.gg/9fN49nTnfs) on discord and i'll remove it asap.
+- The start splash screen background images belong to the respective owners. Kindly check [this file](https://github.com/BluZed/Radioactive-Krunker-Client/blob/main/windows/splash/splash.js) to know more and if any of them wants to be removed, please [dm me](https://discord.gg/9fN49nTnfs) on discord and i'll remove it asap.
