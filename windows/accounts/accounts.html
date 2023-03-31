@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Radioactive V2 - Account Manager</title>
+        <link rel="stylesheet" href="./accounts.css">
+    </head>
+    <body>
+        <div class="title">Account Manager</div>
+        <div class="holder">
+            <div class="holder-btns">
+                <button class="holderBtn add">Add Account</button>
+            </div>
+            <div class="add-account-window" style="display:none">
+                <div class="inputs">
+                    <input class="input-name" type="text" placeholder="Enter Username"/>
+                    <input class="input-pass" type="password" placeholder="Enter Password"/>
+                    <div class="input-btns">
+                        <button class="input-submit">Submit</button>
+                        <button class="input-cancel">Cancel</button>
+                    </div>
+                </div>
+                <div class="results" style="display:none">
+                    <div class="result-name"></div>
+                    <div class="result-clan"></div>
+                    <div class="result-createdAt" style="
+                    color: #ff5976;"></div>
+                    <div class="result-kr" style="color: #ffffb5;"></div>
+                    <button class="add-account-confirm">Add this account</button>
+                </div>
+                <div class="status" style="display:none">
+                    Fetching account...
+                </div>
+            </div>
+            <div class="accounts-list">
+            </div>
+        </div>
+    </body>
+</html>

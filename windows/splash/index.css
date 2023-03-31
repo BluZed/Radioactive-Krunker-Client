@@ -1,0 +1,176 @@
+* {
+    outline: none!important;
+    user-select: none;
+}
+
+html {
+    overflow: hidden!important;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(26, 26, 26);
+    border: 5px solid rgb(14, 14, 14);
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    /*background-image: url(https://preview.redd.it/eyczzbntbx071.png?width=1920&format=png&auto=webp&s=d733e9a3e5048a2425ea277896bb3fc566d4cc00);*/
+    background-repeat: no-repeat;
+    background-size: contain;
+    backdrop-filter: blur(3px);
+}
+
+#stateHolder {
+    color: #fdfdbd;
+    font-family: monospace;
+    font-size: large;
+    position: absolute;
+    width: 100%;
+    height: 3rem;
+    text-align: center;
+    top: 23rem;
+    left: 0;
+    background: rgb(14 14 14 / 79%);
+}
+
+.gameLoaded {
+    border-radius: 1rem!important;
+    border: 2px solid rgb(98 193 197)!important;
+    background: rgb(98 193 197 / 23%)!important;
+    color: white!important;
+    cursor: pointer!important;
+    transform: scaleX(0.98)!important;
+}
+.gameLoaded:hover {
+    background: rgb(98 193 197 / 63%)!important;
+    transition: all 0.3s;
+}
+
+#header {
+    font-family: system-ui;
+    font-weight: 900;
+    font-size: 4rem;
+    margin-left: 10px;
+    background: -webkit-linear-gradient(#000000,#ffeb00, #ffa000ad, #ff00007a);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+
+.version {
+    position: fixed;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    width: inherit;
+    font-family: monospace;
+    background: #04040491;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    user-select: text;
+    max-height: 2rem;
+}
+
+.versionInfoList {
+    margin-top: 3rem;
+    font-size: 1.2rem;
+    font-family: monospace;
+    user-select: text!important;
+}
+
+#versionInfo {
+    width: 18.8rem;
+    background: #ffffff08;
+    border-radius: 1rem;
+    height: 16rem;
+    position: absolute;
+    right: 0.2rem;
+    bottom: 0.2rem;
+}
+
+.vtext {
+    margin: 0;
+}
+
+.updateBtn {
+    display: none;
+    float: right;
+    margin-right: 1rem;
+    background: #46ddffc7;
+    border: 1px solid black;
+    border-radius: 1rem;
+    width: 5rem;
+    height: 2rem;
+    transform: translateY(-1.9rem);
+}
+.updateBtn:hover {
+    transform: scale(1.1) translateY(-1.8rem);
+    transition: all 0.3s;
+    cursor: pointer;
+    border: 1px solid #f4ff00c7;
+}
+
+#mainHolder {
+    background: rgb(14 14 14 / 64%);
+    position: absolute;
+    top: 0.5rem;
+    height: 22.3rem;
+    left: 0.5rem;
+    width: 39rem;
+    color: white;
+}
+
+#stateText {
+    animation: blink 1s linear infinite;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 1rem;
+    margin: auto;
+    height: min-content;
+}
+
+.buttons {
+    position: absolute;
+    display: grid;
+    grid-template-columns: auto auto;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    transform: translateY(3rem);
+    height: 10rem;
+    padding: 2rem;
+    border-right: 3px solid rgb(26, 26, 26);
+    border-left: none;
+}
+
+.material-symbols-outlined {
+    margin-top: 1rem;
+    font-size: 2rem;
+    transform: translateX(-2px);
+}
+
+.button {
+    background: #ffffff30;
+    border-radius: 100px;
+    text-align: center;
+    width: 7rem;
+    height: 4rem;
+    margin: 0.4rem;
+}
+.button:hover {
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: all 0.1s;
+    background: #ffffff69;
+    border: 1px solid #ffffffa6;
+}
+
+@keyframes blink {
+    50% {
+      opacity: 0;
+    }
+}
