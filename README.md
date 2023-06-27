@@ -1,7 +1,4 @@
 # ☢️ Radioactive Krunker Client
- [![Windows](https://svgshare.com/i/ZhY.svg)](https://svgshare.com/i/ZhY.svg)  ![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)
-
-_Radioactive krunker client is a new krunker client that is aimed towards providing features to the krunker players while also keeping performance as a priority._
 
 ## Features
 Currently the features listed below are present.
