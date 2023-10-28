@@ -1,4 +1,5 @@
 # ☢️ Radioactive Krunker Client
+![Maintenance](https://img.shields.io/badge/Maintained%3F-no-red.svg)
 
 ## Features
 Currently the features listed below are present.
