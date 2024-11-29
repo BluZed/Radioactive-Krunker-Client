@@ -23,7 +23,7 @@ Prebuilt binaries are availaible for Windows. Any other OS user needs to build f
 - Download the setup `exe` file
 - Open the downloaded setup file and go through the options.
 ## Support
-All support/Bugs/Glitches are to be reported directly to me or in the [discord server](https://discord.gg/9fN49nTnfs).
+All support/Bugs/Glitches are to be reported directly to me.
 > My Discord is `bluzed`
 ## Building from source
 - [Install NodeJS](https://nodejs.org/en)
