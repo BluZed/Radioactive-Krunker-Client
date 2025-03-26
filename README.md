@@ -1,6 +1,8 @@
 # ☢️ Radioactive Krunker Client
 ![Maintenance](https://img.shields.io/badge/Maintained%3F-no-red.svg)
 
+> This client is no longer maintained and I personally prefer to use [KraXen72/crankshaft](https://github.com/KraXen72/crankshaft) which is much better client & also open source.
+
 ## Features
 Currently the features listed below are present.
 - Uncapped FPS
